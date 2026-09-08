@@ -1,0 +1,103 @@
+{
+  "name": "Wulf",
+  "productName": "Wulf",
+  "version": "1.0.0",
+  "description": "Dump your brain onto a table.",
+  "author": {
+    "name": "MathDevz",
+    "url": "https://github.com/MathDevz"
+  },
+  "license": "CC-BY-NC-4.0",
+  "private": false,
+  "main": "dist-electron/main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build && tsc -p tsconfig.electron.json",
+    "preview": "vite preview",
+    "start": "npm run build && electron .",
+    "dist:win": "npm run build && electron-builder --win --publish never",
+    "dist:portable": "npm run build && electron-builder --win portable --publish never"
+  },
+  "devDependencies": {
+    "@types/node": "20.14.10",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "@vitejs/plugin-react": "4.3.1",
+    "electron": "31.2.0",
+    "electron-builder": "24.13.3",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "typescript": "5.5.3",
+    "vite": "5.3.3"
+  },
+  "build": {
+    "appId": "app.wulf.desktop",
+    "productName": "Wulf",
+    "copyright": "Copyright \u00a9 2026 MathDevz. Licensed under CC BY-NC 4.0.",
+    "directories": {
+      "output": "release",
+      "buildResources": "resources"
+    },
+    "files": [
+      "dist/**/*",
+      "dist-electron/**/*",
+      "package.json"
+    ],
+    "extraResources": [
+      {
+        "from": "resources/logo-full.png",
+        "to": "logo-full.png"
+      },
+      {
+        "from": "resources/icon.ico",
+        "to": "icon.ico"
+      },
+      {
+        "from": "resources/icon.png",
+        "to": "icon.png"
+      },
+      {
+        "from": "resources/tray.png",
+        "to": "tray.png"
+      }
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "icon": "resources/icon.ico",
+      "artifactName": "Wulf-Setup-${version}.${ext}"
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Wulf",
+      "installerIcon": "resources/icon.ico",
+      "uninstallerIcon": "resources/icon.ico",
+      "installerHeaderIcon": "resources/icon.ico",
+      "installerSidebar": "resources/installerSidebar.bmp",
+      "uninstallerSidebar": "resources/installerSidebar.bmp",
+      "installerHeader": "resources/installerHeader.bmp",
+      "deleteAppDataOnUninstall": false,
+      "runAfterFinish": true,
+      "menuCategory": false,
+      "include": "installer/installer.nsh"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MathDevz/Wulf.git"
+  },
+  "homepage": "https://github.com/MathDevz/Wulf",
+  "bugs": {
+    "url": "https://github.com/MathDevz/Wulf/issues"
+  }
+}
