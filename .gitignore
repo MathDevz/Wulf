@@ -1,0 +1,14 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+dist-electron/
+release/
+
+# editor / os
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
