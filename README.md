@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/MathDevz/Wulf/main/docs/img/hero.png" alt="Wulf" width="100%">
+<img src="https://github.com/MathDevz/Wulf/blob/main/resources/logo-full.png?raw=true" alt="Wulf" width="300">
 
 **A local-first personal backlog for Windows.**<br>
 Capture first, organize second, act third.
@@ -18,8 +18,6 @@ Most task apps make you file a thought properly before they'll accept it — pic
 Wulf has one field. Type the thing, press Enter, it's captured. Sorting it out is a separate job you do later, if you feel like it.
 
 Nothing is auto-scheduled, auto-prioritized or auto-sorted. Today only contains what you dragged there yourself. No AI, no account, no telemetry.
-
-![Queue](https://raw.githubusercontent.com/MathDevz/Wulf/main/docs/img/queue.png)
 
 ## The five sections
 
@@ -43,8 +41,6 @@ design the enclosure ~3h
 
 `#tag` · `!1 !2 !3` priority · `~30m ~2h` estimate · `@today @later @tomorrow @weekend`
 
-![Project](https://raw.githubusercontent.com/MathDevz/Wulf/main/docs/img/project.png)
-
 Progress is a plain count of what's done — *2 of 6 complete*. Subtasks roll into tasks, tasks roll into the project.
 
 ## Keyboard
@@ -52,8 +48,6 @@ Progress is a plain count of what's done — *2 of 6 complete*. Subtasks roll in
 `N` capture · `Ctrl K` search everything · `Ctrl 1–5` sections · `Space` complete · `Enter` details · `F2` rename · `T` `Q` `L` move · `Ctrl Z` undo · `Del` delete
 
 Drag and drop works everywhere — reorder, move between sections, drop onto a project, drop files to attach.
-
-![Search](https://raw.githubusercontent.com/MathDevz/Wulf/main/docs/img/palette.png)
 
 ## Your data
 
@@ -78,4 +72,7 @@ npm run dist:win
 
 [CC BY-NC 4.0](LICENSE) — free to use, share and modify with credit, not for commercial use.
 
-<div align="center"><sub>© 2026 <a href="https://github.com/MathDevz">MathDevz</a></sub></div>
+<div align="center">
+<img src="https://github.com/MathDevz/Wulf/blob/main/resources/tray.png?raw=true" alt="" width="28"><br>
+<sub>© 2026 <a href="https://github.com/MathDevz">MathDevz</a></sub>
+</div>
