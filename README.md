@@ -23,7 +23,7 @@ Capture first, organize second, act third.
 
 </div>
 
-<img src="https://github.com/MathDevz/Wulf/blob/main/resources/divider.png?raw=true" width="100%" alt="">
+---
 
 Most task apps make you file a thought properly before they'll accept it — pick a project, a priority, a date. So you don't write it down, and you lose it.
 
@@ -31,7 +31,7 @@ Wulf has one field. Type the thing, press Enter, it's captured. Sorting it out i
 
 Nothing is auto-scheduled, auto-prioritized or auto-sorted. Today only contains what you dragged there yourself. No AI, no account, no telemetry.
 
-<img src="https://github.com/MathDevz/Wulf/blob/main/resources/divider.png?raw=true" width="100%" alt="">
+---
 
 ## &nbsp;Where things live
 
@@ -96,7 +96,7 @@ npm install
 npm run dist:win
 ```
 
-<img src="https://github.com/MathDevz/Wulf/blob/main/resources/divider.png?raw=true" width="100%" alt="">
+---
 
 <div align="center">
 
