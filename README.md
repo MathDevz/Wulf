@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="docs/img/hero.png" alt="Wulf" width="100%">
+<img src="https://raw.githubusercontent.com/MathDevz/Wulf/main/docs/img/hero.png" alt="Wulf" width="100%">
 
 **A local-first personal backlog for Windows.**<br>
 Capture first, organize second, act third.
@@ -19,7 +19,7 @@ Wulf has one field. Type the thing, press Enter, it's captured. Sorting it out i
 
 Nothing is auto-scheduled, auto-prioritized or auto-sorted. Today only contains what you dragged there yourself. No AI, no account, no telemetry.
 
-![Queue](docs/img/queue.png)
+![Queue](https://raw.githubusercontent.com/MathDevz/Wulf/main/docs/img/queue.png)
 
 ## The five sections
 
@@ -43,7 +43,7 @@ design the enclosure ~3h
 
 `#tag` · `!1 !2 !3` priority · `~30m ~2h` estimate · `@today @later @tomorrow @weekend`
 
-![Project](docs/img/project.png)
+![Project](https://raw.githubusercontent.com/MathDevz/Wulf/main/docs/img/project.png)
 
 Progress is a plain count of what's done — *2 of 6 complete*. Subtasks roll into tasks, tasks roll into the project.
 
@@ -53,7 +53,7 @@ Progress is a plain count of what's done — *2 of 6 complete*. Subtasks roll in
 
 Drag and drop works everywhere — reorder, move between sections, drop onto a project, drop files to attach.
 
-![Search](docs/img/palette.png)
+![Search](https://raw.githubusercontent.com/MathDevz/Wulf/main/docs/img/palette.png)
 
 ## Your data
 
